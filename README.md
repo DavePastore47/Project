@@ -17,7 +17,7 @@ Site web Next.js pour afficher le programme des matchs de football diffusés en 
 - React.js
 
 ## 🖥️ Aperçu
-*(ajoute ton lien Vercel ici si tu en as un)*
+Pas encore en ligne...
 
 ---
 

@@ -53,6 +53,7 @@ export default function Home() {
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 max-w-4xl mx-auto">
           <Image src="/Wh.jpg" alt="Match en direct" width={400} height={300} className="rounded shadow-lg object-cover" />
           <Image src="/What.jpg" alt="Clients contents" width={400} height={300} className="rounded shadow-lg object-cover" />
+          <Image src="/Rea.jpg" alt="Ambiance" width={400} height={300} className="rounded shadow-lg object-cover" />
           <Image src="/Fond.jpg" alt="Ambiance" width={400} height={300} className="rounded shadow-lg object-cover" />
         </div>
       </section>
