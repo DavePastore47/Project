@@ -9,13 +9,13 @@
   {
     "id": 2,
     "team1": "Inter Milan",
-    "team2": "Bayen Munich",
+    "team2": "Bayern Munich",
     "datetime": "2025-04-16T20:00:00",
     "competition": "Ligue des Champions"
   },
   {
     "id": 3,
-    "team1": "Man United",
+    "team1": "Manchester United",
     "team2": "Lyon",
     "datetime": "2025-04-17T20:00:00",
     "competition": "Europa League"
