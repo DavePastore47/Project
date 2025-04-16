@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "team1": "Real Madrid",
+    "team2": "Arsenal",
+    "datetime": "2025-04-16T20:00:00",
+    "competition": "Ligue des Champions"
+  },
+  {
+    "id": 2,
+    "team1": "Inter Milan",
+    "team2": "Bayen Munich",
+    "datetime": "2025-04-16T20:00:00",
+    "competition": "Ligue des Champions"
+  },
+  {
+    "id": 3,
+    "team1": "Man United",
+    "team2": "Lyon",
+    "datetime": "2025-04-17T20:00:00",
+    "competition": "Europa League"
+  }
+]
