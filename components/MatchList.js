@@ -4,6 +4,7 @@ import { format, parseISO, isSameDay } from 'date-fns';
 import fr from 'date-fns/locale/fr';
 import Countdown from './Countdown';
 import ThemeToggle from './ThemeToggle';
+
 import Footer from './Footer';
 
 const API_KEY = 'f462782a02580d061814fde70bae0ade'; // 🔑 Remplace par ta vraie clé API-Football

@@ -1,6 +1,20 @@
+import { useRouter } from 'next/router';
+
 export default function Apropos() {
+  const router = useRouter();
+
   return (
     <div className="max-w-4xl mx-auto px-6 py-10 text-white">
+      {/* ✅ Bouton de retour en haut */}
+      <div className="mb-6">
+        <button
+          onClick={() => router.back()}
+          className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded transition duration-200"
+        >
+          ⬅ Retour
+        </button>
+      </div>
+
       <h1 className="text-4xl font-bold mb-6 text-green-400">KING ADS SERVICES ⚽📺</h1>
 
       <p className="mb-6 text-lg">
