@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useRouter } from 'next/router';
+import Head from 'next/head'; // ✅ Ajouté pour la balise <Head>
 import '../styles/globals.css';
 import WhatsAppButton from '../components/WhatsAppButton';
-
 
 export default function App({ Component, pageProps }) {
   const [theme, setTheme] = useState('light');
@@ -11,6 +11,11 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>KING ADS SERVICES</title>
+      </Head>
+
       <AnimatePresence mode="wait">
         <motion.div
           key={router.route}
@@ -22,6 +27,7 @@ export default function App({ Component, pageProps }) {
           <Component {...pageProps} />
         </motion.div>
       </AnimatePresence>
+
       <WhatsAppButton />
     </>
   );
