@@ -1,18 +1,5 @@
 [
-  {
-    "id": 1,
-    "team1": "Real Madrid",
-    "team2": "Arsenal",
-    "datetime": "2025-04-16T20:00:00",
-    "competition": "Ligue des Champions"
-  },
-  {
-    "id": 2,
-    "team1": "Inter Milan",
-    "team2": "Bayern Munich",
-    "datetime": "2025-04-16T20:00:00",
-    "competition": "Ligue des Champions"
-  },
+
   {
     "id": 3,
     "team1": "Manchester United",
@@ -22,22 +9,22 @@
   },
   {
     "id": 4,
-    "team1": "Al Qadisiya",
-    "team2": "Al-Nassr",
+    "team1": "Al Qadsiah FC",
+    "team2": "Al Nassr",
     "datetime": "2025-04-18T19:00:00",
     "competition": "Saudi Pro Leaque"
   },
   {
     "id": 5,
     "team1": "Real Madrid",
-    "team2": "Athletico Bilbao",
+    "team2": "Athletic Club",
     "datetime": "2025-04-20T20:00:00",
     "competition": "LaLiga"
   },
   {
     "id": 6,
-    "team1": "Barcelone",
-    "team2": "Majorque",
+    "team1": "Barcelona",
+    "team2": "Mallorca",
     "datetime": "2025-04-22T20:30:00",
     "competition": "LaLiga"
   },
