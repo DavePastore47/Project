@@ -174,8 +174,8 @@ export default function MatchList() {
                 return (
                   <div
                     key={match.datetime}
-                    className={`p-4 rounded shadow flex flex-col md:flex-row justify-between items-center gap-2 text-white
-                      ${isNext ? 'bg-green-700 animate-pulse' : 'bg-gray-800'}`}
+                    className={`p-4 rounded shadow flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 text-white
+                      ${isNext ? 'border-2 border-green-400 bg-gray-800' : 'bg-gray-800'}`}                      
                   >
                     <div className="flex items-center gap-2">
                       {logos[match.team1] && (
