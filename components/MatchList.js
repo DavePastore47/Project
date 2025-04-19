@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import matchs from '../data/matchs.json';
+import { db } from '../lib/firebase';
+import { collection, getDocs } from 'firebase/firestore';
 import { format, parseISO, isSameDay } from 'date-fns';
 import fr from 'date-fns/locale/fr';
 import Countdown from './Countdown';
@@ -7,9 +8,25 @@ import ThemeToggle from './ThemeToggle';
 
 import Footer from './Footer';
 
+
 const API_KEY = 'f462782a02580d061814fde70bae0ade'; // 🔑 Remplace par ta vraie clé API-Football
 
 export default function MatchList() {
+  const [matchs, setMatchs] = useState([]);
+
+useEffect(() => {
+  const fetchMatchs = async () => {
+    const querySnapshot = await getDocs(collection(db, 'matchs'));
+    const data = querySnapshot.docs.map(doc => ({
+      id: doc.id,
+      ...doc.data()
+    }));
+    setMatchs(data);
+  };
+
+  fetchMatchs();
+}, []);
+
   const [highlightedIndex, setHighlightedIndex] = useState(null);
   const [selectedDate, setSelectedDate] = useState(null);
   const [selectedCompetition, setSelectedCompetition] = useState('');
